@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.formularioCuenta{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 8px;
+    width: 100%;
+    margin-left: 15px;
+    text-align: center;
+}
+.interior1{
+    width: 100%;
+}
+.interior2{
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.container{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.contentA{
+    display: flex;
+    flex-direction: column;
+ 
+}
+.derecha,.izquierda{
+    width: 30%;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 45vh;
+    width: 100%;
+    background: #fff;
+  
+}
+.formLink{
+    display: flex;
+    flex-direction: column;
+}
+#user,#pass,#nombre,#app,#apm,#correo,#sexo{
+    width: 40%;
+    margin: 0 auto;
+}
+#Btnregistrar{
+    width: 25%;
+    height: 3vh;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.izquierda{
+background: #4567af;
+padding-left: 25px;
+}.derecha{
+    background: #f5f3f3;
+}
+
+#linkIniciar{
+    white-space: nowrap;
+    text-decoration: none;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+#linkIniciar:hover{
+    color: red;
+}
+#BtnPaneles{
+    height: 3vh;
+    background: transparent;
+    border: transparent;
+}
+hr{
+    width: 100%;
+    height: 2px;
+    margin-top: 8px;
+    background-image: linear-gradient(to right, #007BFF, #00BFFF, #87CEFA, #ADD8E6, #B0E0E6);
+}
+.links{
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.panelTemas{
+    display: none;
+    background-color: #4567af;
+    padding: 5px;
+  }
+  .panelNosotros{
+    display: none;
+    background-color: #4567af;
+    padding: 5px;
+  }
+
