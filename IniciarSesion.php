@@ -48,11 +48,16 @@
     </div> 
         <div class="formLink">
         <div class="interior1">
-    <form action="ValidarDatos.php" method="post" class="formularioCuenta">
+    <form  id="form" action="ValidarDatos.php" method="post" class="formularioCuenta">
+
+    <!-- <input type="password" id="login_password" name="contrasena" placeholder="Ingrese su contraseña">
+ <label for=""><input type="checkbox" id="chk"> Ver contraseña <br>-->
     <span>CORREO</span><input type="email" id="correo"name="CORREO" required>
     <span>USUARIO</span><input type="text" id="user"name="USUARIO" required>
-    <span>CONTRASEÑA</span><input type="password" id="pass"name="PASS" required>     
+    <span>CONTRASEÑA</span><input type="password" id="pass"name="PASS" required> 
+    <label for=""><input type="checkbox" id="chk"> Ver contraseña <br>
     <button type="submit" id="Btnregistrar">ENTRAR</button>
+     <article id="texto"></article>
     </form>        
     </div>
     <div class="interior2">

@@ -18,7 +18,7 @@
                 <li><button class="temas-panel"id="BtnPaneles">TEMAS</Button></li>
                 <div class="panelTemas">
                     <ul>
-                        <li><a href="">Salud Psicológica</a></li>
+                        <li><a href="./views/saludPsicologica.html">Salud Mental</a></li>
                         <li><a href="">Terapia Online</a></li>
                         <li><a href="">Libros de Psicología</a> </li>
                         <li><a href="">Autoayuda</a></li>
@@ -48,7 +48,7 @@
     </div> 
         <div class="formLink">
         <div class="interior1">
-    <form action="crearUsuario.php" method="post" class="formularioCuenta">
+    <form action="crearUsuario.php" method="post" class="formularioCuenta" id="form">
     <span>NOMBRE</span><input type="text" id="nombre"name="NOMBRE" required>
     <span>APELLIDO PATERNO</span><input type="text" id="app"name="APELLIDO_P" required>
     <span>APELLIDO MATERNO</span><input type="text" id="apm"name="APELLIDO_M" required>
@@ -59,9 +59,12 @@
         <option value="PREFIERO NO DECIR" id="sexo">Prefiero no decir</option>
     </select>
     <span>CORREO</span><input type="email" id="correo"name="CORREO" required>
-    <span>USUARIO</span><input type="text" id="user"name="USUARIO" required>
-    <span>CONTRASEÑA</span><input type="password" id="pass"name="PASS" required>     
+    <span>USUARIO</span><input type="text" id="user"name="USUARIO" required> 
+    <span>CONTRASEÑA</span><input type="password" id="pass"name="PASS" required> 
+    <label for=""><input type="checkbox" id="chk"> Ver contraseña <br>   
     <button type="submit" id="Btnregistrar">REGISTRAR</button>
+    <article id="texto"></article>
+    
     </form>        
     </div>
     <div class="interior2">
